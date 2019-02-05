@@ -54,6 +54,16 @@ li a
   margin-right: 20px;
 }
 
+#nav li:first-child:hover {
+  background-color: #DCE0E3;
+  padding: 5px;
+}
+#nav li:not(:first-child):hover
+{
+background-color: chartreuse;
+padding: 5px;
+}
+
 .text-block 
 {
   display: flex;
@@ -83,21 +93,29 @@ width: 80px;
 margin-top: 15px;
 }
 
-
+.button:hover {
+  background-color: chartreuse;
+}
 
   .about-us {
-    display: flex;
+     /*display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 24%;
     text-align: center;
     margin: 2% auto;
-    /*min-height: 200px;  */
-  
-    align-items: center;
+   min-height: 200px;  */
+   display: flex;
+     text-align: center;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    
   }
-
+.about-flex {
+  width: 40%;
+}
 
 .second-section {
     margin-top: 50px;
